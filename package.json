@@ -1,0 +1,16 @@
+{
+  "name": "hlog",
+  "version": "0.0.2",
+  "jspm": {
+    "main": "hiram-logger"
+  },
+  "directories": {
+    "lib": "src"
+  },
+  "format" : "es6",
+  "keywords": [
+    "hiram",
+    "logging"
+  ]
+
+}
