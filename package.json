@@ -2,7 +2,8 @@
   "name": "hlog",
   "version": "0.0.2",
   "jspm": {
-    "main": "hiram-logger"
+    "main": "hiram-logger",
+    "name": "hlog"
   },
   "directories": {
     "lib": "src"

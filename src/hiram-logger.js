@@ -23,7 +23,7 @@ class Log {
      * @returns {*} current value if used as getter or itself (chaining) if used as setter
      */
     debugEnabled(flag) {
-        if (isDefined(flag)) {
+        if (flag !== undefined && flag !== null) {
             this._debug = flag;
             return this;
         } else {
