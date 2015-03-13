@@ -10,9 +10,17 @@ Requirements
 Synopsis
 -----
 
-First, install via (jspm)[http://www.jspm.io]
+First, install via [jspm](http://www.jspm.io)
 
-    jspm install 'github:hiramsoft/es6-hiram-logger'
+    jspm install 'github:hiramsoft/es6-logger'
+
+Optionally, in your config.js replace this line
+
+    "es6-logger": "github:hiramsoft/es6-logger@master"
+
+with this line
+
+    "hlog": "github:hiramsoft/es6-logger@master"
 
 Second, use ES6 import to bring logging to your code
 
@@ -29,7 +37,7 @@ Third, then log like normal
 
 Introduction and Background
 ------
-This is the (AngularJS)[https://angularjs.org/] $logProvider pulled out into a standalone ES6 module.
+This is the [AngularJS](https://angularjs.org/) $logProvider pulled out into a standalone ES6 module.
 
 Why?
 
