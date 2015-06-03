@@ -12,15 +12,9 @@ Synopsis
 
 First, install via [jspm](http://www.jspm.io)
 
-    jspm install 'github:hiramsoft/es6-logger'
+    jspm install hlog=github:hiramsoft/es6-logger@^0.0.3
 
-Optionally, in your config.js replace this line
-
-    "es6-logger": "github:hiramsoft/es6-logger@master"
-
-with this line
-
-    "hlog": "github:hiramsoft/es6-logger@master"
+(By convention, we will keep master production-ready.  You may also peg to specific release versions).
 
 Second, use ES6 import to bring logging to your code
 
